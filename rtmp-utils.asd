@@ -4,5 +4,6 @@
   :author "rtmpdavid"
   :license "WTFPL"
   :serial t
+  :depends-on (:alexandria)
   :components ((:file "package")
                (:file "rtmp-utils" :depends-on ("package"))))
