@@ -1,4 +1,5 @@
 (defpackage #:rtmp-utils
   (:use #:cl)
   (:nicknames #:rtmp-utils #:rtmp)
-  (:export #:make-eq))
+  (:export #:make-pred #:string-case
+	   #:hash-memoize))
